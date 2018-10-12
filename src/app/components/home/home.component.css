@@ -1,0 +1,15 @@
+.titulo{
+    color: aliceblue;
+    font-size: 80px;
+    text-align: center;
+}
+.container{
+
+}
+.col-4{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+    padding: 0;
+}
