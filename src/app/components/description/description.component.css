@@ -1,0 +1,48 @@
+img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.container.box{
+
+}
+.box-image{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+}
+.box-description
+{
+    height: 600px;
+    text-align: center;
+    color:aliceblue;
+    position: relative;
+    padding-top: 100px;
+}
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+.card-image{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.evolutions
+{
+    padding-bottom: 50px;
+    text-align: center;
+    widows: 100%;
+}
+.evolutions h2{
+    color: aliceblue;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
