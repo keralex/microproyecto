@@ -15,7 +15,7 @@ export class NavigationhomeComponent implements OnInit {
     this.getPokemons;
   }
   getPokemons(): void {
-    this.pokemons = this.pokemonService.getPokemons();
+    this.pokemons = this.pokemonService.getpokemons();
   }
 
 }

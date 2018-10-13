@@ -1,31 +1,25 @@
+<div class="container">
 <div class="titulo">
 <p>POKEDEX</p>
 </div>
-<div class="container">
+
     <div class="row">
        
 
-        <div class="col-4">
+        <div class="col-4" *ngFor="let pokemon of pokemons" >
                 <div class="box"> 
-                        <a><img src="../../../assets/img/Pikachu_(anime_XY).png" alt="Avatar" class="image"></a>
-                        <h2>pikachu</h2>
-                        <div class="overlay">
-                          <div class="text">#Pokedex: 1</div>
-                        </div>
-                      </div>
-        </div> 
-        <div class="col-4" *ngFor="let pokemon of pokemons">
-                <div class="box"> 
-                        <a><img src="{{pokemon.art_url}}" class="image"></a>
+                        <img src="{{pokemon.art_url}}" class="image">
                         <h2>{{pokemon.name}}</h2>
                         <div class="overlay">
-                          <div class="text">#Pokedex: 1</div>
+                          <div class="text">#Pokedex: {{pokemon.pkdx_id}}</div>
                         </div>
                       </div>
+                      
         </div>
+    
       
       </div>
 
-</div>
 
+</div>
 
