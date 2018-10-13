@@ -3,18 +3,27 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-4"><a routerLink="/description/pokemonid">
-            <app-pokemon></app-pokemon></a>
-        </div>
+       
+
         <div class="col-4">
-          One of three columns
+                <div class="box"> 
+                        <a><img src="../../../assets/img/Pikachu_(anime_XY).png" alt="Avatar" class="image"></a>
+                        <h2>pikachu</h2>
+                        <div class="overlay">
+                          <div class="text">#Pokedex: 1</div>
+                        </div>
+                      </div>
+        </div> 
+        <div class="col-4" *ngFor="let pokemon of pokemons">
+                <div class="box"> 
+                        <a><img src="{{pokemon.art_url}}" class="image"></a>
+                        <h2>{{pokemon.name}}</h2>
+                        <div class="overlay">
+                          <div class="text">#Pokedex: 1</div>
+                        </div>
+                      </div>
         </div>
-        <div class="col-4">
-          One of three columns
-        </div>
-        <div class="col-4">
-            One of three columns
-          </div>
+      
       </div>
 
 </div>

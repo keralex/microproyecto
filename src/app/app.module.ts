@@ -14,7 +14,7 @@ import { DescriptionComponent } from './components/description/description.compo
     PokemonComponent,
     NavigationhomeComponent,
     HomeComponent,
-    DescriptionComponent
+    DescriptionComponent,
   ],
   imports: [
     BrowserModule,
